@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>tb4_gesture</name>
+  <version>0.1.0</version>
+  <description>Bai 06 HRI: nhan dien cu chi tay bang MediaPipe qua webcam va dieu khien TurtleBot 4 (Ignition Gazebo) qua /cmd_vel.</description>
+  <maintainer email="tst159205@gmail.com">aionia-tung</maintainer>
+  <license>MIT</license>
+
+  <exec_depend>rclpy</exec_depend>
+  <exec_depend>std_msgs</exec_depend>
+  <exec_depend>geometry_msgs</exec_depend>
+  <exec_depend>nav_msgs</exec_depend>
+  <exec_depend>rcl_interfaces</exec_depend>
+  <exec_depend>irobot_create_msgs</exec_depend>
+  <exec_depend>ros2launch</exec_depend>
+  <exec_depend>ros_gz_bridge</exec_depend>
+  <exec_depend>ros_ign_gazebo</exec_depend>
+  <exec_depend>turtlebot4_ignition_bringup</exec_depend>
+  <exec_depend>python3-opencv</exec_depend>
+  <!-- mediapipe cai bang pip (xem README) -->
+
+  <test_depend>python3-pytest</test_depend>
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>
