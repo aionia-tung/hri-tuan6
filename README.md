@@ -5,7 +5,7 @@
 Webcam laptop → **MediaPipe Gesture Recognizer** → ROS 2 topic `/detected_gesture` → máy trạng thái hành vi →
 `/cmd_vel` → TurtleBot 4 trong Ignition Gazebo. Trong lúc demo không dùng bàn phím để điều khiển robot.
 
-- Video demo: `<LINK GOOGLE DRIVE>`
+- Video demo: [`<LINK GOOGLE DRIVE>`](https://drive.google.com/file/d/1mZoi9Vj-dTXAJQmmsmHXKV246vsd9sy0/view?usp=sharing)
 
 ## Bảng ánh xạ cử chỉ → hành vi
 
